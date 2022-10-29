@@ -13,6 +13,8 @@
 		8E8B51A0290829FE00581C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B519E290829FE00581C8D /* Main.storyboard */; };
 		8E8B51A2290829FF00581C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B51A1290829FF00581C8D /* Assets.xcassets */; };
 		8E8B51A5290829FF00581C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B51A3290829FF00581C8D /* LaunchScreen.storyboard */; };
+		8E8B51B3290C37D500581C8D /* MeetTeamStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B51B2290C37D500581C8D /* MeetTeamStoryboard.storyboard */; };
+		8E8B51B7290C383700581C8D /* MeetTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B51B6290C383700581C8D /* MeetTeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8E8B51A1290829FF00581C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E8B51A4290829FF00581C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8B51A6290829FF00581C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8B51B2290C37D500581C8D /* MeetTeamStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeetTeamStoryboard.storyboard; sourceTree = "<group>"; };
+		8E8B51B6290C383700581C8D /* MeetTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTeamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8E8B519A290829FE00581C8D /* SceneDelegate.swift */,
 				8E8B519C290829FE00581C8D /* ViewController.swift */,
 				8E8B519E290829FE00581C8D /* Main.storyboard */,
+				8E8B51B2290C37D500581C8D /* MeetTeamStoryboard.storyboard */,
+				8E8B51B6290C383700581C8D /* MeetTeamViewController.swift */,
 				8E8B51A1290829FF00581C8D /* Assets.xcassets */,
 				8E8B51A3290829FF00581C8D /* LaunchScreen.storyboard */,
 				8E8B51A6290829FF00581C8D /* Info.plist */,
@@ -128,6 +134,7 @@
 				8E8B51A5290829FF00581C8D /* LaunchScreen.storyboard in Resources */,
 				8E8B51A2290829FF00581C8D /* Assets.xcassets in Resources */,
 				8E8B51A0290829FE00581C8D /* Main.storyboard in Resources */,
+				8E8B51B3290C37D500581C8D /* MeetTeamStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8B51B7290C383700581C8D /* MeetTeamViewController.swift in Sources */,
 				8E8B519D290829FE00581C8D /* ViewController.swift in Sources */,
 				8E8B5199290829FE00581C8D /* AppDelegate.swift in Sources */,
 				8E8B519B290829FE00581C8D /* SceneDelegate.swift in Sources */,

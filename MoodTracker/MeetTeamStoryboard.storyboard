@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Meet Team View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MeetTeamViewController" id="Y6W-OH-hqX" customClass="MeetTeamViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наша команда" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6s-Dn-PBG">
+                                <rect key="frame" x="94" y="79" width="242" height="52"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Inn-qe-ocg">
+                                <rect key="frame" x="46" y="181" width="338" height="528"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-Wv-gqe">
+                                        <rect key="frame" x="0.0" y="0.0" width="338" height="103.33333333333333"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KAterina" translatesAutoresizingMaskIntoConstraints="NO" id="se9-F0-MnR">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103.33333333333333"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="se9-F0-MnR" secondAttribute="height" multiplier="1:1" id="3nD-WU-DMU"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Юрий" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-Rm-2l1">
+                                                <rect key="frame" x="190.33333333333337" y="37.666666666666657" width="147.66666666666663" height="28"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-av-Ozh">
+                                        <rect key="frame" x="0.0" y="106.33333333333331" width="338" height="103"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Katya" translatesAutoresizingMaskIntoConstraints="NO" id="Ws8-Ij-ytZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Ws8-Ij-ytZ" secondAttribute="height" multiplier="1:1" id="udE-ge-wmh"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Катя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-9C-MBR">
+                                                <rect key="frame" x="190.33333333333337" y="37.333333333333371" width="147.66666666666663" height="28"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="NxX-Cs-GND">
+                                        <rect key="frame" x="0.0" y="212.33333333333334" width="338" height="103.33333333333334"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ruslan" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vjs-yk-fZb">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103.33333333333333"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Vjs-yk-fZb" secondAttribute="height" multiplier="1:1" id="ZFs-Bq-Pzn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Руслан" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-bU-mCT">
+                                                <rect key="frame" x="190.33333333333337" y="37.666666666666686" width="147.66666666666663" height="28"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="FTx-GS-3iQ">
+                                        <rect key="frame" x="0.0" y="318.66666666666669" width="338" height="103"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Roma" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-eM-cvQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Роман" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bc6-6B-HiQ">
+                                                <rect key="frame" x="190.33333333333337" y="37.666666666666686" width="147.66666666666663" height="28"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="r0v-eM-cvQ" firstAttribute="width" secondItem="r0v-eM-cvQ" secondAttribute="height" multiplier="1:1" id="OxE-zE-Op7"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="NfA-Bg-scr">
+                                        <rect key="frame" x="0.0" y="424.66666666666663" width="338" height="103.33333333333337"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KAterina" translatesAutoresizingMaskIntoConstraints="NO" id="iwJ-aX-anR">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103.33333333333333"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="iwJ-aX-anR" secondAttribute="height" multiplier="1:1" id="Cpg-Fe-ZCi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Катерина" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-8T-ruw">
+                                                <rect key="frame" x="190.33333333333337" y="37.666666666666742" width="147.66666666666663" height="28"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXU-lv-bfL">
+                                <rect key="frame" x="131.66666666666666" y="803" width="166.99999999999997" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="Zgp-bd-JJC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="начать">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="Inn-qe-ocg" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.566524" id="9Op-kR-oX9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vXU-lv-bfL" secondAttribute="bottom" constant="30" id="Dif-W3-feY"/>
+                            <constraint firstItem="vXU-lv-bfL" firstAttribute="top" relation="lessThanOrEqual" secondItem="NfA-Bg-scr" secondAttribute="bottom" constant="94" id="Gg5-fF-VqU"/>
+                            <constraint firstItem="v6s-Dn-PBG" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="JZQ-cD-r7t"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="v6s-Dn-PBG" secondAttribute="trailing" constant="95" id="Vzl-wc-0Lv"/>
+                            <constraint firstItem="vXU-lv-bfL" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="WNm-Rb-TG3"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Inn-qe-ocg" secondAttribute="trailing" constant="46" id="ZHs-5d-IPf"/>
+                            <constraint firstItem="v6s-Dn-PBG" firstAttribute="leading" relation="lessThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="95" id="a59-Hr-EnL"/>
+                            <constraint firstItem="v6s-Dn-PBG" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="dcc-PW-FBe"/>
+                            <constraint firstItem="Inn-qe-ocg" firstAttribute="top" secondItem="v6s-Dn-PBG" secondAttribute="bottom" constant="50" id="nJu-WF-AFH"/>
+                            <constraint firstItem="vXU-lv-bfL" firstAttribute="leading" relation="lessThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="140" id="oey-mC-Zo8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="vXU-lv-bfL" secondAttribute="trailing" constant="140" id="sIS-pT-6W9"/>
+                            <constraint firstItem="Inn-qe-ocg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="46" id="xLJ-7L-tTk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="EPhoto" destination="iwJ-aX-anR" id="86C-gK-bvl"/>
+                        <outlet property="KPhoto" destination="Ws8-Ij-ytZ" id="tTd-dc-2V4"/>
+                        <outlet property="RPhoto" destination="Vjs-yk-fZb" id="Fbn-wf-Mam"/>
+                        <outlet property="RoPhoto" destination="r0v-eM-cvQ" id="dDH-RT-zS9"/>
+                        <outlet property="YPhoto" destination="se9-F0-MnR" id="xWD-RR-fJ5"/>
+                        <outlet property="startButton" destination="vXU-lv-bfL" id="IJ9-7Y-UyV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788.37209302325584" y="-368.24034334763951"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KAterina" width="640" height="640"/>
+        <image name="Katya" width="640" height="640"/>
+        <image name="Roma" width="640" height="640"/>
+        <image name="Ruslan" width="640" height="640"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

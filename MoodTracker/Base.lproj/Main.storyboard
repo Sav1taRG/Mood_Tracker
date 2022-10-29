@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TaQ-YZ-mpl">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Dec-a3-sYZ">
+            <objects>
+                <viewController id="TaQ-YZ-mpl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wE3-oN-oBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmF-lq-531">
+                                <rect key="frame" x="158" y="83" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="dJE-ZN-f8v" eventType="touchUpInside" id="JeP-uB-BeF"/>
+                                    <segue destination="ecQ-wt-NPq" kind="presentation" modalPresentationStyle="fullScreen" id="gNg-pS-gyh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LT7-B2-Ti7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dmF-lq-531" firstAttribute="leading" secondItem="LT7-B2-Ti7" secondAttribute="leading" constant="158" id="0vw-71-bFZ"/>
+                            <constraint firstItem="LT7-B2-Ti7" firstAttribute="trailing" secondItem="dmF-lq-531" secondAttribute="trailing" constant="157" id="Vqz-IP-wea"/>
+                            <constraint firstItem="dmF-lq-531" firstAttribute="top" secondItem="LT7-B2-Ti7" secondAttribute="top" constant="36" id="gHk-fz-4OR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQP-bn-Rgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="dJE-ZN-f8v" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-523.07692307692309" y="-108.05687203791469"/>
+        </scene>
+        <!--MeetTeamViewController-->
+        <scene sceneID="Zih-mR-nMt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MeetTeamStoryboard" referencedIdentifier="MeetTeamViewController" id="ecQ-wt-NPq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VmR-im-xHF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQK-zx-6tw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="-25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

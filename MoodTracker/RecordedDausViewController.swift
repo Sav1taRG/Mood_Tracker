@@ -1,26 +1,23 @@
 //
-//  ViewController.swift
+//  RecordedDausViewController.swift
 //  MoodTracker
 //
-//  Created by hiirari on 25.10.2022.
+//  Created by hiirari on 28.10.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    
-    
-    
-    
+class RecordedDausViewController: UIViewController {
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
+
 
 
 }
-
