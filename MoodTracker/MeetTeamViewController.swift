@@ -9,11 +9,11 @@ import UIKit
 
 class MeetTeamViewController: UIViewController {
     
-    @IBOutlet var YPhoto: UIImageView!
-    @IBOutlet var KPhoto: UIImageView!
-    @IBOutlet var RPhoto: UIImageView!
-    @IBOutlet var RoPhoto: UIImageView!
-    @IBOutlet var EPhoto: UIImageView!
+    @IBOutlet var KatyaPhoto: UIImageView!
+    @IBOutlet var YuriPhoto: UIImageView!
+    @IBOutlet var RuslanPhoto: UIImageView!
+    @IBOutlet var RomanPhoto: UIImageView!
+    @IBOutlet var KaterinaPhoto: UIImageView!
     
     @IBOutlet var startButton: UIButton!
     
@@ -24,11 +24,11 @@ class MeetTeamViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        YPhoto.layer.cornerRadius = YPhoto.frame.width / 2
-        KPhoto.layer.cornerRadius = KPhoto.frame.width / 2
-        RPhoto.layer.cornerRadius = RPhoto.frame.width / 2
-        RoPhoto.layer.cornerRadius = RoPhoto.frame.width / 2
-        EPhoto.layer.cornerRadius = EPhoto.frame.width / 2
+        KatyaPhoto.layer.cornerRadius = KatyaPhoto.frame.width / 2
+        YuriPhoto.layer.cornerRadius = YuriPhoto.frame.width / 2
+        RuslanPhoto.layer.cornerRadius = RuslanPhoto.frame.width / 2
+        RomanPhoto.layer.cornerRadius = RomanPhoto.frame.width / 2
+        KaterinaPhoto.layer.cornerRadius = KaterinaPhoto.frame.width / 2
     }
 
 }

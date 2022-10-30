@@ -28,13 +28,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-Wv-gqe">
                                         <rect key="frame" x="0.0" y="0.0" width="338" height="103.33333333333333"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KAterina" translatesAutoresizingMaskIntoConstraints="NO" id="se9-F0-MnR">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Katya" translatesAutoresizingMaskIntoConstraints="NO" id="se9-F0-MnR">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103.33333333333333"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="se9-F0-MnR" secondAttribute="height" multiplier="1:1" id="3nD-WU-DMU"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Юрий" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-Rm-2l1">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Катя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-Rm-2l1">
                                                 <rect key="frame" x="190.33333333333337" y="37.666666666666657" width="147.66666666666663" height="28"/>
                                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -45,13 +45,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-av-Ozh">
                                         <rect key="frame" x="0.0" y="106.33333333333331" width="338" height="103"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Katya" translatesAutoresizingMaskIntoConstraints="NO" id="Ws8-Ij-ytZ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Y" translatesAutoresizingMaskIntoConstraints="NO" id="Ws8-Ij-ytZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Ws8-Ij-ytZ" secondAttribute="height" multiplier="1:1" id="udE-ge-wmh"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Катя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-9C-MBR">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Юрий" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-9C-MBR">
                                                 <rect key="frame" x="190.33333333333337" y="37.333333333333371" width="147.66666666666663" height="28"/>
                                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -145,11 +145,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="EPhoto" destination="iwJ-aX-anR" id="86C-gK-bvl"/>
-                        <outlet property="KPhoto" destination="Ws8-Ij-ytZ" id="tTd-dc-2V4"/>
-                        <outlet property="RPhoto" destination="Vjs-yk-fZb" id="Fbn-wf-Mam"/>
-                        <outlet property="RoPhoto" destination="r0v-eM-cvQ" id="dDH-RT-zS9"/>
-                        <outlet property="YPhoto" destination="se9-F0-MnR" id="xWD-RR-fJ5"/>
+                        <outlet property="KaterinaPhoto" destination="iwJ-aX-anR" id="86C-gK-bvl"/>
+                        <outlet property="KatyaPhoto" destination="se9-F0-MnR" id="xWD-RR-fJ5"/>
+                        <outlet property="RomanPhoto" destination="r0v-eM-cvQ" id="dDH-RT-zS9"/>
+                        <outlet property="RuslanPhoto" destination="Vjs-yk-fZb" id="Fbn-wf-Mam"/>
+                        <outlet property="YuriPhoto" destination="Ws8-Ij-ytZ" id="tTd-dc-2V4"/>
                         <outlet property="startButton" destination="vXU-lv-bfL" id="IJ9-7Y-UyV"/>
                     </connections>
                 </viewController>
@@ -163,6 +163,7 @@
         <image name="Katya" width="640" height="640"/>
         <image name="Roma" width="640" height="640"/>
         <image name="Ruslan" width="640" height="640"/>
+        <image name="Y" width="640" height="640"/>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
