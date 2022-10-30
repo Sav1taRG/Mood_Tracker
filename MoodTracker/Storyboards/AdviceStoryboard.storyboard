@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EXE-9a-kIy">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -104,7 +103,7 @@
                             <outlet property="delegate" destination="6Ms-M3-F6i" id="X5O-ds-Mej"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Advices" image="tabBarItem:eEw-dl-81q:image" catalog="system" id="eEw-dl-81q"/>
+                    <tabBarItem key="tabBarItem" title="Advices" image="tabBarItem:eEw-dl-81q:image" id="eEw-dl-81q"/>
                     <navigationItem key="navigationItem" id="iy7-vd-jYK">
                         <barButtonItem key="backBarButtonItem" title="Back" id="1Jn-2C-B0r"/>
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PC6-Y7-BZF">
@@ -221,7 +220,7 @@
             </objects>
             <point key="canvasLocation" x="2591" y="41"/>
         </scene>
-        <!--Category View Controller-->
+        <!--Советы-->
         <scene sceneID="007-yM-YWe">
             <objects>
                 <viewController id="EXE-9a-kIy" customClass="CategoryViewController" customModule="MoodTracker" customModuleProvider="target" sceneMemberID="viewController">
@@ -318,6 +317,8 @@
                             <constraint firstItem="rux-97-0Kw" firstAttribute="leading" secondItem="nu7-Mv-2tM" secondAttribute="leading" constant="16" id="iKo-p3-Xht"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Советы" image="face.smiling" catalog="system" id="Nh1-F1-jks"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="Nbp-uA-EDL" kind="presentation" identifier="toNavigation" modalPresentationStyle="fullScreen" id="IOX-nI-RNk"/>
                         <segue destination="Ze3-Ds-jvP" kind="presentation" identifier="toHumor" modalPresentationStyle="fullScreen" id="yno-RF-wez"/>
@@ -371,10 +372,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="face.smiling" catalog="system" width="128" height="123"/>
         <image name="meditation" width="1136" height="936"/>
         <image name="meditation 2" width="2048" height="2048"/>
         <image name="smile" width="800" height="765"/>
-        <image name="tabBarItem:eEw-dl-81q:image" catalog="system" width="128" height="123">
+        <image name="tabBarItem:eEw-dl-81q:image" width="128" height="123">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
 S2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBELDBscIRkmKywzNjlDS0xQU1UkbnVsbNcNDg8QERITFBUW

@@ -21,12 +21,14 @@
 		3039D276290F28480057B6A2 /* AdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D26E290F28480057B6A2 /* AdviceViewController.swift */; };
 		3039D277290F28480057B6A2 /* DetailedResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D26F290F28480057B6A2 /* DetailedResultViewController.swift */; };
 		3039D27B290F28520057B6A2 /* ThoughtsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3039D278290F28520057B6A2 /* ThoughtsStoryboard.storyboard */; };
-		3039D27C290F28520057B6A2 /* Five.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3039D279290F28520057B6A2 /* Five.storyboard */; };
+		3039D27C290F28520057B6A2 /* AdviceStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3039D279290F28520057B6A2 /* AdviceStoryboard.storyboard */; };
 		3039D27D290F28520057B6A2 /* ResultStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3039D27A290F28520057B6A2 /* ResultStoryboard.storyboard */; };
 		3039D280290F28730057B6A2 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D27E290F28730057B6A2 /* Advice.swift */; };
 		3039D281290F28730057B6A2 /* Humor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D27F290F28730057B6A2 /* Humor.swift */; };
 		3039D284290F2B400057B6A2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D282290F2B400057B6A2 /* CustomTableViewCell.swift */; };
 		3039D285290F2B400057B6A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D283290F2B400057B6A2 /* Extensions.swift */; };
+		3039D289290F3BA20057B6A2 /* ResultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D288290F3BA20057B6A2 /* ResultNavigationController.swift */; };
+		3039D28B290F3E260057B6A2 /* ResultTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039D28A290F3E260057B6A2 /* ResultTabBarController.swift */; };
 		8E8B5199290829FE00581C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B5198290829FE00581C8D /* AppDelegate.swift */; };
 		8E8B519B290829FE00581C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B519A290829FE00581C8D /* SceneDelegate.swift */; };
 		8E8B519D290829FE00581C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B519C290829FE00581C8D /* ViewController.swift */; };
@@ -51,12 +53,14 @@
 		3039D26E290F28480057B6A2 /* AdviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdviceViewController.swift; sourceTree = "<group>"; };
 		3039D26F290F28480057B6A2 /* DetailedResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedResultViewController.swift; sourceTree = "<group>"; };
 		3039D278290F28520057B6A2 /* ThoughtsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThoughtsStoryboard.storyboard; sourceTree = "<group>"; };
-		3039D279290F28520057B6A2 /* Five.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Five.storyboard; sourceTree = "<group>"; };
+		3039D279290F28520057B6A2 /* AdviceStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdviceStoryboard.storyboard; sourceTree = "<group>"; };
 		3039D27A290F28520057B6A2 /* ResultStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultStoryboard.storyboard; sourceTree = "<group>"; };
 		3039D27E290F28730057B6A2 /* Advice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
 		3039D27F290F28730057B6A2 /* Humor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Humor.swift; sourceTree = "<group>"; };
 		3039D282290F2B400057B6A2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = MoodTracker/Services/CustomTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		3039D283290F2B400057B6A2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = MoodTracker/Services/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		3039D288290F3BA20057B6A2 /* ResultNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultNavigationController.swift; sourceTree = "<group>"; };
+		3039D28A290F3E260057B6A2 /* ResultTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTabBarController.swift; sourceTree = "<group>"; };
 		8E8B5195290829FE00581C8D /* MoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8B5198290829FE00581C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8B519A290829FE00581C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				3039D26E290F28480057B6A2 /* AdviceViewController.swift */,
 				3039D26A290F28480057B6A2 /* CategoryViewController.swift */,
 				3039D26B290F28480057B6A2 /* DetailedAdviceViewController.swift */,
+				3039D28A290F3E260057B6A2 /* ResultTabBarController.swift */,
 				3039D26F290F28480057B6A2 /* DetailedResultViewController.swift */,
 				3039D26D290F28480057B6A2 /* HumorTableViewController.swift */,
 				3039D268290F28480057B6A2 /* MeditationViewController.swift */,
@@ -94,6 +99,7 @@
 				3039D25B290F26CF0057B6A2 /* SetMoodViewController.swift */,
 				8E8B519C290829FE00581C8D /* ViewController.swift */,
 				8E8B51B6290C383700581C8D /* MeetTeamViewController.swift */,
+				3039D288290F3BA20057B6A2 /* ResultNavigationController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -101,7 +107,7 @@
 		3039D264290F26FE0057B6A2 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				3039D279290F28520057B6A2 /* Five.storyboard */,
+				3039D279290F28520057B6A2 /* AdviceStoryboard.storyboard */,
 				3039D27A290F28520057B6A2 /* ResultStoryboard.storyboard */,
 				3039D278290F28520057B6A2 /* ThoughtsStoryboard.storyboard */,
 				3039D25C290F26CF0057B6A2 /* SetMoodStoryboard.storyboard */,
@@ -234,7 +240,7 @@
 				8E8B51A2290829FF00581C8D /* Assets.xcassets in Resources */,
 				3039D27B290F28520057B6A2 /* ThoughtsStoryboard.storyboard in Resources */,
 				8E8B51A0290829FE00581C8D /* Main.storyboard in Resources */,
-				3039D27C290F28520057B6A2 /* Five.storyboard in Resources */,
+				3039D27C290F28520057B6A2 /* AdviceStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,7 @@
 				3039D270290F28480057B6A2 /* MeditationViewController.swift in Sources */,
 				3039D284290F2B400057B6A2 /* CustomTableViewCell.swift in Sources */,
 				3039D277290F28480057B6A2 /* DetailedResultViewController.swift in Sources */,
+				3039D289290F3BA20057B6A2 /* ResultNavigationController.swift in Sources */,
 				3039D274290F28480057B6A2 /* ResultTableViewController.swift in Sources */,
 				8E8B519D290829FE00581C8D /* ViewController.swift in Sources */,
 				3039D273290F28480057B6A2 /* DetailedAdviceViewController.swift in Sources */,
@@ -260,6 +267,7 @@
 				8E8B5199290829FE00581C8D /* AppDelegate.swift in Sources */,
 				3039D25E290F26CF0057B6A2 /* DataStore.swift in Sources */,
 				3039D25F290F26CF0057B6A2 /* RecordedDausViewController.swift in Sources */,
+				3039D28B290F3E260057B6A2 /* ResultTabBarController.swift in Sources */,
 				3039D285290F2B400057B6A2 /* Extensions.swift in Sources */,
 				8E8B519B290829FE00581C8D /* SceneDelegate.swift in Sources */,
 				3039D272290F28480057B6A2 /* CategoryViewController.swift in Sources */,

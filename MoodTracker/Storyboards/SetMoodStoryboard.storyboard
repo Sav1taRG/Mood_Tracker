@@ -118,7 +118,7 @@
         <!--ThoughtsStoryboard-->
         <scene sceneID="aZv-ID-QWh">
             <objects>
-                <viewControllerPlaceholder storyboardName="ThoughtsStoryboard" referencedIdentifier="ThoughtsStoryboard" id="g3U-XY-w3Z" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="ThoughtsStoryboard" id="g3U-XY-w3Z" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEh-W3-QP7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1455" y="-85"/>
